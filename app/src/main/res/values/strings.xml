@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">IBurguer Parceiro</string>
+    <!--  TELA LOGIN    -->
+    <string name="frase1">Entre na sua conta:</string>
+    <string name="lUsuario">Usuário:</string>
+    <string name="lSenha">Senha:</string>
+    <string name="hintUsuario">Seu email</string>
+    <string name="hintSenha">Sua senha</string>
+    <string name="btnEntrarString">Entrar</string>
+    <string name="frase2">Não possui uma conta?</string>
+    <string name="btnCadastrarString">Cadastre-se aqui</string>
+    <string name="descLogo">Logo do sistema</string>
+    <!-- - -->
+    <!--  TELA Cadastro    -->
+    <string name="frase3">Crie sua conta:</string>
+    <string name="lNome">Seu nome:</string>
+    <string name="hintNome">Insira seu nome completo</string>
+    <string name="lblCpf">Seu CPF:</string>
+    <string name="hintCpf">Insira seu cpf</string>
+    <string name="lblEmail">Seu email:</string>
+    <string name="hintEmail">Insira seu email</string>
+    <string name="lblTelefone">Telefone:</string>
+    <string name="hintTelefone">Insira seu número de telefone</string>
+    <string name="lblSenha">Crie uma senha:</string>
+    <string name="lblConfirmaSenhaString">Confirmar senha:</string>
+    <string name="hintConfirmaSenhaString">Confirmar senha</string>
+    <string name="btnFinalizarString">Finalizar cadastro</string>
+    <string name="btnCancelarString">Cancelar</string>
+    <!-- - -->
+    <!--  TELA Principal    -->
+    <string name="boasVindasHeader">Olá,</string>
+    <string name="menuOpPrincipalString">Principal</string>
+    <string name="menuOpPedidosString">Pedidos</string>
+    <string name="menuOpContaString">Conta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- - -->
+    <!--  Fragment Principal    -->
+    <string name="indicadorEnderecoAtualString">Seu endereço: </string>
+    <string name="lblLojasString">Lojas: </string>
+    <string name="lblOrdenarporString">Ordenar por: </string>
+    <string name="lblOrderByMelhoresAvaliados">Melhores avaliados</string>
+    <string name="lblOrderByMenorTaxaEntrega">Menor taxa de entrega</string>
+    <string name="lblOrderByPopular">Popularidade</string>
+    <string name="lblOrderByMelhorPreco">Menor preço</string>
+    <!-- - -->
+    <!--  Fragment Pedidos    -->
+    <string name="lblseuspedidos">Seus Pedidos</string>
+    <!-- - -->
+    <!--  Fragment Conta    -->
+    <string name="lblinfopessoais">Informações pessoais</string>
+    <string name="lbldescinfopessoais">Nome completo e CPF</string>
+    <string name="lbldadoscontato">Dados de contato</string>
+    <string name="lbldescdadoscontato">E-mail e telefone de contato</string>
+    <string name="lbldadosacesso">Dados de Login</string>
+    <string name="lbldescdadosacesso">Senha de acesso à conta</string>
+    <string name="lbldadosentrega">Dados de entrega</string>
+    <string name="lbldescdadosentrega">Seus endereços de entrega</string>
+    <!-- - -->
+    <!--  Activity Novos pedidos    -->
+    <string name="lblpedidostring">Pedido</string>
+    <string name="lblprodutosstring">Produtos:</string>
+    <string name="btnadditensstring">Adicionar mais itens desta loja</string>
+    <string name="lblvalortotstring">Valor total:</string>
+    <string name="lblentregastring">Entrega:</string>
+    <string name="lblpagamentostring">Pagamento:</string>
+    <string name="lbldinheirostring">Pagar com dinheiro</string>
+    <string name="lblcartaostring">Pagar com cartão</string>
+    <string name="btnconfirmapedido">CONFIRMAR PEDIDO</string>
+    <string name="nome_da_loj">Nome da loja</string>
+    <string name="hamb_rguers">Hambúrguers</string>
+    <string name="r_15_00">R$ 15,00 </string>
+    <string name="hamburguer_">Hamburguer Gourmet</string>
+    <string name="button_text">ADICIONAR PRODUTO</string>
+    <string name="button_text1">NOVA SEÇÃO</string>
+    <string name="home">Home</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="conta">Conta</string>
+    <string name="title_activity_lista_pedidos">ListaPedidos</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pedidos_n_o">Pedidos não atendidos:</string>
+    <string name="usu_rio_1">Usuário 1</string>
+    <string name="valor_total">Valor total: R$ 19,00</string>
+    <string name="pedido_1">Pedido #1</string>
+    <string name="title_activity_tela_de_pedidos">TelaDePedidos</string>
+    <string name="dados_do_pe">Dados do Pedido:</string>
+    <string name="produtos_">Produtos:</string>
+    <string name="endere_o_de">Endereço de entrega:</string>
+    <string name="pagamento_">Pagamento:</string>
+    <string name="cliente_">Cliente:</string>
+    <string name="rodrigo_bra">Rodrigo Branas</string>
+    <string name="cart_o">Cartão</string>
+    <string name="r_49_00">R$ 49,00</string>
+    <string name="rua_jeronim">Rua Jeronimo Jeromino Jerbinhas, 244, Centro, Florianópolis</string>
+</resources>
