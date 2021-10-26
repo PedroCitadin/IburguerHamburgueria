@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/branco"
     android:orientation="vertical"
-    tools:context=".PedidosFragment">
+    tools:context=".ProdutosFragment">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -36,5 +36,15 @@
             tools:ignore="SpeakableTextPresentCheck,UselessLeaf">
 
         </ScrollView>
+
     </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddViagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/ic_add"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 </FrameLayout>

@@ -5,7 +5,13 @@
             android:icon="@drawable/ic_principal"
             android:title="@string/menuOpPrincipalString"
             />
-        <item android:id="@+id/page_pedidos"
+        <item android:id="@+id/page_pedidos_aceitos"
+            android:enabled="true"
+            android:icon="@drawable/ic_confirmados"
+
+            android:title="@string/lblpedidos"
+            />
+        <item android:id="@+id/page_produtos"
             android:enabled="true"
             android:icon="@drawable/ic_pedidos"
             android:title="@string/menuOpPedidosString"
@@ -16,5 +22,6 @@
 
             android:title="@string/menuOpContaString"
             />
+
 
 </menu>

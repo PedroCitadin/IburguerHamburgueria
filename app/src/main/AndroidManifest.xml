@@ -12,19 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IBurguer">
         <activity
-            android:name=".TelaDePedidos"
-            android:exported="true"
-            android:label="@string/title_activity_tela_de_pedidos"
-            android:theme="@style/Theme.IBurguer.NoActionBar" />
-        <activity
-            android:name=".ListaPedidos"
-            android:exported="true"
-            android:label="@string/title_activity_lista_pedidos"
-            android:theme="@style/Theme.IBurguer.NoActionBar" />
-        <activity
-            android:name=".ProdutosActivity"
-            android:exported="true" />
-        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -35,7 +22,6 @@
         </activity>
         <activity android:name=".CadastroActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LojaActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -2,18 +2,13 @@ package com.example.iburguer;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,11 +34,14 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.page_home:
                     frag = new PrincipalFragment();
                 break;
-                case R.id.page_pedidos:
-                    frag = new PedidosFragment();
+                case R.id.page_produtos:
+                    frag = new ProdutosFragment();
                     break;
                 case R.id.page_conta:
                     frag = new ContaFragment();
+                    break;
+                case R.id.page_pedidos_aceitos:
+                    frag = new PedidosConfirmadosFragment();
                     break;
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.container, frag).commit();

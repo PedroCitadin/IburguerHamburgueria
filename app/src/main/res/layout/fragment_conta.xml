@@ -27,7 +27,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nome da pessoa"
+                android:text="Nome da Loja"
                 android:textSize="20sp"
                 android:fontFamily="@font/roboto_negrito"
                 android:textColor="@color/black"
@@ -59,15 +59,16 @@
                         android:fontFamily="@font/roboto"
                         android:layout_marginStart="20dp"
                         />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/lbldescinfopessoais"
                         android:textColor="@color/cinzafont"
                         android:textSize="15sp"
-                        android:fontFamily="@font/roboto"
-                        android:layout_marginStart="20dp"
-                        />
+                        tools:ignore="TextContrastCheck" />
 
                 </LinearLayout>
                 <LinearLayout
@@ -105,15 +106,16 @@
                         android:fontFamily="@font/roboto"
                         android:layout_marginStart="20dp"
                         />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/lbldescdadoscontato"
                         android:textColor="@color/cinzafont"
                         android:textSize="15sp"
-                        android:fontFamily="@font/roboto"
-                        android:layout_marginStart="20dp"
-                        />
+                        tools:ignore="TextContrastCheck" />
 
                 </LinearLayout>
                 <LinearLayout
@@ -151,15 +153,16 @@
                         android:fontFamily="@font/roboto"
                         android:layout_marginStart="20dp"
                         />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/lbldescdadosacesso"
                         android:textColor="@color/cinzafont"
                         android:textSize="15sp"
-                        android:fontFamily="@font/roboto"
-                        android:layout_marginStart="20dp"
-                        />
+                        tools:ignore="TextContrastCheck" />
 
                 </LinearLayout>
                 <LinearLayout
@@ -198,15 +201,16 @@
                         android:fontFamily="@font/roboto"
                         android:layout_marginStart="20dp"
                         />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/roboto"
                         android:text="@string/lbldescdadosentrega"
                         android:textColor="@color/cinzafont"
                         android:textSize="15sp"
-                        android:fontFamily="@font/roboto"
-                        android:layout_marginStart="20dp"
-                        />
+                        tools:ignore="TextContrastCheck" />
 
                 </LinearLayout>
                 <LinearLayout

@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
 
         Button btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(view -> {
-            editLoginEmail = findViewById(R.id.editLoginEmail);
+            /*editLoginEmail = findViewById(R.id.editLoginEmail);
             editLoginSenha = findViewById(R.id.editLoginSenha);
             try {
                 signIn(editLoginEmail.getText().toString(), editLoginSenha.getText().toString());
@@ -45,7 +45,9 @@ public class LoginActivity extends AppCompatActivity {
             } catch(IllegalArgumentException exception) {
                 Toast.makeText(LoginActivity.this, "Nenhum campo pode estar vazio!",
                         Toast.LENGTH_SHORT).show();
-            }
+            }*/
+
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
         });
     }
 

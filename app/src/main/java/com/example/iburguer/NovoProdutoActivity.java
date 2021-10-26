@@ -1,14 +1,16 @@
 package com.example.iburguer;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class ProdutosActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
+public class NovoProdutoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_produtos);
+        setContentView(R.layout.activity_novo_produto);
+
     }
+
+
 }

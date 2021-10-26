@@ -13,10 +13,10 @@
     <!-- - -->
     <!--  TELA Cadastro    -->
     <string name="frase3">Crie sua conta:</string>
-    <string name="lNome">Seu nome:</string>
-    <string name="hintNome">Insira seu nome completo</string>
-    <string name="lblCpf">Seu CPF:</string>
-    <string name="hintCpf">Insira seu cpf</string>
+    <string name="lNome">Nome da hamburgueria:</string>
+    <string name="hintNome">Insira o nome da hamburgueria</string>
+    <string name="lblCpf">CNPJ:</string>
+    <string name="hintCpf">Insira o CNPJ da hamburgueria</string>
     <string name="lblEmail">Seu email:</string>
     <string name="hintEmail">Insira seu email</string>
     <string name="lblTelefone">Telefone:</string>
@@ -26,36 +26,44 @@
     <string name="hintConfirmaSenhaString">Confirmar senha</string>
     <string name="btnFinalizarString">Finalizar cadastro</string>
     <string name="btnCancelarString">Cancelar</string>
+    <string name="lblNovaRua">Rua:</string>
+    <string name="lblNovaBairro">Bairro:</string>
+    <string name="lblNovaCep">CEP:</string>
+    <string name="lblNovaCidade">Cidade:</string>
+    <string name="lblNovaEstado">Estado:</string>
+    <string name="lblNovaNumero">Número:</string>
+    <string name="lblNovaComplemento">Complemento:</string>
+    <string name="hintNovaRua">Insira a rua</string>
+    <string name="hintNovaBairro">Insira o bairro</string>
+    <string name="hintNovaCep">Insira o CEP</string>
+    <string name="hintNovaCidade">Insira a cidade</string>
+    <string name="hintNovaEstado">Insira o estado</string>
+    <string name="hintNovaNumero">Insira o número</string>
+    <string name="hintNovaComplemento">Insira o complemento</string>
     <!-- - -->
     <!--  TELA Principal    -->
     <string name="boasVindasHeader">Olá,</string>
     <string name="menuOpPrincipalString">Principal</string>
-    <string name="menuOpPedidosString">Pedidos</string>
+    <string name="menuOpPedidosString">Produtos</string>
     <string name="menuOpContaString">Conta</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- - -->
     <!--  Fragment Principal    -->
-    <string name="indicadorEnderecoAtualString">Seu endereço: </string>
-    <string name="lblLojasString">Lojas: </string>
-    <string name="lblOrdenarporString">Ordenar por: </string>
-    <string name="lblOrderByMelhoresAvaliados">Melhores avaliados</string>
-    <string name="lblOrderByMenorTaxaEntrega">Menor taxa de entrega</string>
-    <string name="lblOrderByPopular">Popularidade</string>
-    <string name="lblOrderByMelhorPreco">Menor preço</string>
+
     <!-- - -->
     <!--  Fragment Pedidos    -->
-    <string name="lblseuspedidos">Seus Pedidos</string>
+    <string name="lblseuspedidos">Seus Produtos</string>
     <!-- - -->
     <!--  Fragment Conta    -->
-    <string name="lblinfopessoais">Informações pessoais</string>
-    <string name="lbldescinfopessoais">Nome completo e CPF</string>
+    <string name="lblinfopessoais">Informações da Loja</string>
+    <string name="lbldescinfopessoais">Nome e CNPJ</string>
     <string name="lbldadoscontato">Dados de contato</string>
     <string name="lbldescdadoscontato">E-mail e telefone de contato</string>
     <string name="lbldadosacesso">Dados de Login</string>
     <string name="lbldescdadosacesso">Senha de acesso à conta</string>
-    <string name="lbldadosentrega">Dados de entrega</string>
-    <string name="lbldescdadosentrega">Seus endereços de entrega</string>
+    <string name="lbldadosentrega">Dados de Endereço</string>
+    <string name="lbldescdadosentrega">Informações de endereço</string>
     <!-- - -->
     <!--  Activity Novos pedidos    -->
     <string name="lblpedidostring">Pedido</string>
@@ -74,7 +82,7 @@
     <string name="button_text">ADICIONAR PRODUTO</string>
     <string name="button_text1">NOVA SEÇÃO</string>
     <string name="home">Home</string>
-    <string name="pedidos">Pedidos</string>
+    <string name="lblpedidos">Pedidos</string>
     <string name="conta">Conta</string>
     <string name="title_activity_lista_pedidos">ListaPedidos</string>
     <!-- Strings used for fragments for navigation -->
@@ -82,7 +90,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
+    <string name="indicadorEnderecoAtualString">Seu endereço: </string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="pedidos_n_o">Pedidos não atendidos:</string>
@@ -99,4 +107,11 @@
     <string name="cart_o">Cartão</string>
     <string name="r_49_00">R$ 49,00</string>
     <string name="rua_jeronim">Rua Jeronimo Jeromino Jerbinhas, 244, Centro, Florianópolis</string>
+    <string name="pedidos_n_o_atendidos">Pedidos não atendidos:</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="lblpedidosConf">Pedidos:</string>
+    <string name="dados_do_pedido">Dados do pedido:</string>
+    <string name="recusar_pedido">recusar pedido</string>
+    <string name="lblNomecliente">Cliente:</string>
+    <string name="encerrar_pedido">encerrar pedido</string>
 </resources>
