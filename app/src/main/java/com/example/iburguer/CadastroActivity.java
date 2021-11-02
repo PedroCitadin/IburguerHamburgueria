@@ -3,8 +3,10 @@ package com.example.iburguer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -25,7 +27,7 @@ public class CadastroActivity extends AppCompatActivity {
     private Button btnCancelar, btnFinalizarCadastro;
     private EditText editNomeCompleto, editCPF, editEmail, editTelefone, editSenha, editConfirmarSenha;
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
-
+    private Spinner spnEstado;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +41,10 @@ public class CadastroActivity extends AppCompatActivity {
         editTelefone = findViewById(R.id.editTelefone);
         editSenha = findViewById(R.id.editSenha);
         editConfirmarSenha = findViewById(R.id.editConfirmarSenha);
-
+        spnEstado = findViewById(R.id.spnEstado);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.estados, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spnEstado.setAdapter(adapter);
         btnFinalizarCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
